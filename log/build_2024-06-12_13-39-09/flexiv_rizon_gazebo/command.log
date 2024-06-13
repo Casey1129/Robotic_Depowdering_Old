@@ -1,0 +1,6 @@
+Invoking command in '/home/casey/ros2_ws/build/flexiv_rizon_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/casey/ros2_ws/src/flexiv_rizon_gazebo -DCMAKE_INSTALL_PREFIX=/home/casey/ros2_ws/install/flexiv_rizon_gazebo
+Invoked command in '/home/casey/ros2_ws/build/flexiv_rizon_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/casey/ros2_ws/src/flexiv_rizon_gazebo -DCMAKE_INSTALL_PREFIX=/home/casey/ros2_ws/install/flexiv_rizon_gazebo
+Invoking command in '/home/casey/ros2_ws/build/flexiv_rizon_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/casey/ros2_ws/build/flexiv_rizon_gazebo -- -j16 -l16
+Invoked command in '/home/casey/ros2_ws/build/flexiv_rizon_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/casey/ros2_ws/build/flexiv_rizon_gazebo -- -j16 -l16
+Invoking command in '/home/casey/ros2_ws/build/flexiv_rizon_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/casey/ros2_ws/build/flexiv_rizon_gazebo
+Invoked command in '/home/casey/ros2_ws/build/flexiv_rizon_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/casey/ros2_ws/build/flexiv_rizon_gazebo

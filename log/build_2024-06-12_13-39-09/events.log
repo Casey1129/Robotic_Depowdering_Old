@@ -1,0 +1,160 @@
+[0.000000] (-) TimerEvent: {}
+[0.000151] (flexiv_rizon_gazebo) JobQueued: {'identifier': 'flexiv_rizon_gazebo', 'dependencies': OrderedDict()}
+[0.000170] (flexiv_rizon_gazebo) JobStarted: {'identifier': 'flexiv_rizon_gazebo'}
+[0.005994] (flexiv_rizon_gazebo) JobProgress: {'identifier': 'flexiv_rizon_gazebo', 'progress': 'cmake'}
+[0.006485] (flexiv_rizon_gazebo) Command: {'cmd': ['/usr/bin/cmake', '/home/casey/ros2_ws/src/flexiv_rizon_gazebo', '-DCMAKE_INSTALL_PREFIX=/home/casey/ros2_ws/install/flexiv_rizon_gazebo'], 'cwd': '/home/casey/ros2_ws/build/flexiv_rizon_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'casey'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/casey'), ('OLDPWD', '/home/casey'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2073'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/casey/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'casey'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'casey'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/casey/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/casey-ubuntu:@/tmp/.ICE-unix/2054,unix/casey-ubuntu:/tmp/.ICE-unix/2054'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/37d58d00_5abf_472c_80a2_f58d82d04721'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.165'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/casey/ros2_ws/install/flexiv_rizon_gazebo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/casey/ros2_ws/build/flexiv_rizon_gazebo'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/casey/ros2_ws/install/flexiv_rizon_gazebo:/opt/ros/humble')]), 'shell': False}
+[0.056317] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.097983] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.099313] (-) TimerEvent: {}
+[0.103550] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.167743] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.171968] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.172210] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.172386] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.174379] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199622] (-) TimerEvent: {}
+[0.239768] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.244104] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.244318] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.244611] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.246307] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299740] (-) TimerEvent: {}
+[0.345633] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.399877] (-) TimerEvent: {}
+[0.401308] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[0.429901] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.432795] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.437652] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.445750] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.457144] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.495907] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.497120] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.499966] (-) TimerEvent: {}
+[0.600241] (-) TimerEvent: {}
+[0.602558] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.620603] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.659123] (flexiv_rizon_gazebo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.664673] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.700381] (-) TimerEvent: {}
+[0.725839] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.726046] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.793604] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.794183] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.800471] (-) TimerEvent: {}
+[0.894764] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[0.895603] (flexiv_rizon_gazebo) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[0.900576] (-) TimerEvent: {}
+[0.908902] (flexiv_rizon_gazebo) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[1.000851] (-) TimerEvent: {}
+[1.037010] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[1.100974] (-) TimerEvent: {}
+[1.101699] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[1.126082] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[1.149406] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[1.161014] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[1.163846] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.168091] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[1.169015] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[1.169258] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[1.175636] (flexiv_rizon_gazebo) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[1.191603] (flexiv_rizon_gazebo) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[1.201080] (-) TimerEvent: {}
+[1.223717] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[1.228112] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[1.237161] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[1.239990] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[1.240153] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[1.242762] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[1.242933] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[1.245700] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[1.245853] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[1.248451] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[1.248637] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[1.251753] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[1.251924] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[1.254103] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[1.301181] (-) TimerEvent: {}
+[1.309863] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.310980] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[1.311233] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[1.324344] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[1.334388] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[1.339692] (flexiv_rizon_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[1.356089] (flexiv_rizon_gazebo) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[1.398779] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[1.401286] (-) TimerEvent: {}
+[1.402775] (flexiv_rizon_gazebo) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[1.415818] (flexiv_rizon_gazebo) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[1.462474] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[1.463778] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.464122] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[1.479632] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.483495] (flexiv_rizon_gazebo) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[1.496948] (flexiv_rizon_gazebo) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[1.501389] (-) TimerEvent: {}
+[1.539249] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.540213] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[1.540506] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[1.540739] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.541488] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.542415] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[1.551728] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[1.552030] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[1.553332] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[1.553653] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[1.553888] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.555563] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[1.555826] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[1.601536] (-) TimerEvent: {}
+[1.661104] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[1.667814] (flexiv_rizon_gazebo) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[1.685915] (flexiv_rizon_gazebo) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[1.701632] (-) TimerEvent: {}
+[1.723525] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[1.728239] (flexiv_rizon_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[1.748125] (flexiv_rizon_gazebo) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[1.791550] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[1.791784] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[1.791891] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.791967] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.793487] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[1.793680] (flexiv_rizon_gazebo) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[1.801735] (-) TimerEvent: {}
+[1.807518] (flexiv_rizon_gazebo) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[1.854642] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.899872] (flexiv_rizon_gazebo) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.900190] (flexiv_rizon_gazebo) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.900469] (flexiv_rizon_gazebo) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.901221] (flexiv_rizon_gazebo) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.901810] (-) TimerEvent: {}
+[1.901917] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.905956] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Generating done\n'}
+[1.907092] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Build files have been written to: /home/casey/ros2_ws/build/flexiv_rizon_gazebo\n'}
+[1.916098] (flexiv_rizon_gazebo) CommandEnded: {'returncode': 0}
+[1.916851] (flexiv_rizon_gazebo) JobProgress: {'identifier': 'flexiv_rizon_gazebo', 'progress': 'build'}
+[1.918561] (flexiv_rizon_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/casey/ros2_ws/build/flexiv_rizon_gazebo', '--', '-j16', '-l16'], 'cwd': '/home/casey/ros2_ws/build/flexiv_rizon_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'casey'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/casey'), ('OLDPWD', '/home/casey'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2073'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/casey/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'casey'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'casey'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/casey/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/casey-ubuntu:@/tmp/.ICE-unix/2054,unix/casey-ubuntu:/tmp/.ICE-unix/2054'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/37d58d00_5abf_472c_80a2_f58d82d04721'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.165'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/casey/ros2_ws/install/flexiv_rizon_gazebo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/casey/ros2_ws/build/flexiv_rizon_gazebo'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/casey/ros2_ws/install/flexiv_rizon_gazebo:/opt/ros/humble')]), 'shell': False}
+[1.958513] (flexiv_rizon_gazebo) CommandEnded: {'returncode': 0}
+[1.986562] (flexiv_rizon_gazebo) JobProgress: {'identifier': 'flexiv_rizon_gazebo', 'progress': 'install'}
+[1.994562] (flexiv_rizon_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/casey/ros2_ws/build/flexiv_rizon_gazebo'], 'cwd': '/home/casey/ros2_ws/build/flexiv_rizon_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'casey'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/casey'), ('OLDPWD', '/home/casey'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2073'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/casey/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'casey'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'casey'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/casey/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/casey-ubuntu:@/tmp/.ICE-unix/2054,unix/casey-ubuntu:/tmp/.ICE-unix/2054'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/37d58d00_5abf_472c_80a2_f58d82d04721'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.165'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/casey/ros2_ws/install/flexiv_rizon_gazebo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/casey/ros2_ws/build/flexiv_rizon_gazebo'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/casey/ros2_ws/install/flexiv_rizon_gazebo:/opt/ros/humble')]), 'shell': False}
+[1.999618] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.999824] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Installing: /home/casey/ros2_ws/install/flexiv_rizon_gazebo/share/flexiv_rizon_gazebo/launch\n'}
+[1.999914] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Installing: /home/casey/ros2_ws/install/flexiv_rizon_gazebo/share/flexiv_rizon_gazebo/launch/rizon_gazebo.launch.py\n'}
+[2.000054] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Installing: /home/casey/ros2_ws/install/flexiv_rizon_gazebo/share/ament_index/resource_index/package_run_dependencies/flexiv_rizon_gazebo\n'}
+[2.000148] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Installing: /home/casey/ros2_ws/install/flexiv_rizon_gazebo/share/ament_index/resource_index/parent_prefix_path/flexiv_rizon_gazebo\n'}
+[2.000239] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Installing: /home/casey/ros2_ws/install/flexiv_rizon_gazebo/share/flexiv_rizon_gazebo/environment/ament_prefix_path.sh\n'}
+[2.000310] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Installing: /home/casey/ros2_ws/install/flexiv_rizon_gazebo/share/flexiv_rizon_gazebo/environment/ament_prefix_path.dsv\n'}
+[2.000405] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Installing: /home/casey/ros2_ws/install/flexiv_rizon_gazebo/share/flexiv_rizon_gazebo/environment/path.sh\n'}
+[2.000511] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Installing: /home/casey/ros2_ws/install/flexiv_rizon_gazebo/share/flexiv_rizon_gazebo/environment/path.dsv\n'}
+[2.000589] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Installing: /home/casey/ros2_ws/install/flexiv_rizon_gazebo/share/flexiv_rizon_gazebo/local_setup.bash\n'}
+[2.000665] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Installing: /home/casey/ros2_ws/install/flexiv_rizon_gazebo/share/flexiv_rizon_gazebo/local_setup.sh\n'}
+[2.000727] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Installing: /home/casey/ros2_ws/install/flexiv_rizon_gazebo/share/flexiv_rizon_gazebo/local_setup.zsh\n'}
+[2.000802] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Installing: /home/casey/ros2_ws/install/flexiv_rizon_gazebo/share/flexiv_rizon_gazebo/local_setup.dsv\n'}
+[2.000876] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Installing: /home/casey/ros2_ws/install/flexiv_rizon_gazebo/share/flexiv_rizon_gazebo/package.dsv\n'}
+[2.000922] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Installing: /home/casey/ros2_ws/install/flexiv_rizon_gazebo/share/ament_index/resource_index/packages/flexiv_rizon_gazebo\n'}
+[2.001031] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Installing: /home/casey/ros2_ws/install/flexiv_rizon_gazebo/share/flexiv_rizon_gazebo/cmake/flexiv_rizon_gazeboConfig.cmake\n'}
+[2.001109] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Installing: /home/casey/ros2_ws/install/flexiv_rizon_gazebo/share/flexiv_rizon_gazebo/cmake/flexiv_rizon_gazeboConfig-version.cmake\n'}
+[2.001193] (flexiv_rizon_gazebo) StdoutLine: {'line': b'-- Installing: /home/casey/ros2_ws/install/flexiv_rizon_gazebo/share/flexiv_rizon_gazebo/package.xml\n'}
+[2.001867] (-) TimerEvent: {}
+[2.002885] (flexiv_rizon_gazebo) CommandEnded: {'returncode': 0}
+[2.040015] (flexiv_rizon_gazebo) JobEnded: {'identifier': 'flexiv_rizon_gazebo', 'rc': 0}
+[2.040702] (-) EventReactorShutdown: {}
